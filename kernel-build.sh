@@ -17,7 +17,7 @@ echo "Start kernel build"
 echo ""
 echo ""
 
-git checkout mainstream
+git checkout mr2
 
 make clean
 export ARCH=arm
