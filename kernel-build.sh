@@ -44,7 +44,7 @@ rm -rf zImage
 
 cd ../hammerhead/
 
-zipfile="TheArkenstone-HH.zip"
+zipfile="GnomeKernel-HH.zip"
 echo ""
 echo "zipping kernel"
 cp boot.img zip/
