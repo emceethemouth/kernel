@@ -7,7 +7,7 @@ rm arch/arm/boot/zImage-dtb
 rm boot.img
 rm kernel.log
 rm zip/boot.img
-rm zip/TheArkenstone-HH.zip
+rm zip/GnomeKernel-HH.zip
 
 clear
 
@@ -17,7 +17,7 @@ echo "Start kernel build"
 echo ""
 echo ""
 
-git checkout mainstream
+git checkout mr2
 
 make clean
 export ARCH=arm
@@ -44,7 +44,7 @@ rm -rf zImage
 
 cd ../hammerhead/
 
-zipfile="TheArkenstone-HH.zip"
+zipfile="GnomeKernel-HH.zip"
 echo ""
 echo "zipping kernel"
 cp boot.img zip/
